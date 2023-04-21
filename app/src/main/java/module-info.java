@@ -1,0 +1,3 @@
+module idplatform {
+    exports idplatform;
+}
