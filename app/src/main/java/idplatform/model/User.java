@@ -34,7 +34,6 @@ public class User<T> {
         this.firstName = firstName == null ? null : firstName;
         this.lastName = lastName == null ? null : lastName;
         this.phone = phone == null ? null : phone;
-
     }
 
     // userId
@@ -55,10 +54,14 @@ public class User<T> {
         this.email = email;
     }
 
-    // uuidAccountCreationAsString
+    // passcode
 
     public String passcode() {
         return passcode;
+    }
+
+    public void setPasscode(String passcode) {
+        this.passcode = passcode;
     }
 
     // firstName
